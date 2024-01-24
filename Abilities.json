@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name": "Cazadora Noctivaga",
+        "type": "passive",
+        "description": "Aumenta la velocidad del pokemon si el movimiento es un ataque",
+        "area": "no",
+        "power": "none",
+        "cooldwon": "0",
+        "multiplier": ["speed, 1.5"]
+    },
+    {
+        "id": 2,
+        "name": "Pirueta",
+        "type": "Demacia",
+        "description": "Aumenta la probabilidad de esquivar durante un turno y aumenta el daño del siguiente golpe",
+        "area": "no",
+        "power": "none",
+        "cooldwon": "0",
+        "multiplier": ["evasion, 1.5", "dmg, 1.5"]
+    },
+    {
+        "id": 3,
+        "name": "Proyectil de plata",
+        "type": "Demacia",
+        "area": "no",
+        "power": 40,
+        "cooldwon": "0",
+        "description": "Ataca de 1 a 3 veces, si el ataque golpea 3 veces, aumenta el daño del ultimo golpe y ademas hace gran daño a Islas de la sombra, aunque los otros dos ataques no le haran daño",
+        "multiplier": ["dmg, 2", "probability, 60"]
+    },
+    {
+        "id": 4,
+        "name": "Condena",
+        "type": "Demacia",
+        "area": "no",
+        "power": 60,
+        "cooldwon": "0",
+        "description": "Daña al campeon enemigos y ademas tiene un 50% de imbolizar al enemigo, si el campeon es de Jonia hace que los campeones de Shurima puedan hacerle daño",
+        "multiplier": ["none"]
+    },
+    {
+        "id": 5,
+        "name": "Hora Final",
+        "type": "Demacia",
+        "area": "no",
+        "power": "none",
+        "cooldwon": "3",
+        "description": "Aumenta el daño del campeon, se vuelve invisible el siguiente turno (solo puede recibir daño de campeones de Islas de la sombra o de ataques de daño en area) y aumenta la velocidad. No se puede usar dos veces seguidas, hay que esperar 3 turnos",
+        "multiplier": ["speed, 2", "dmg, 2"]
+    },
+    {
+        "id": 6,
+        "name": "Disparo a la cabeza",
+        "type": "passive",
+        "area": "no",
+        "power": "none",
+        "cooldwon": "3",
+        "description": "Cada 3 ataques o contra un enemigo inmoblizado tu siguiente ataque hace el doble de daño",
+        "multiplier": ["dmg, 2"]
+    },
+    {
+        "id": 7,
+        "name": "Pacificadora de piltover",
+        "type": "Piltover",
+        "area": "yes",
+        "power": "100",
+        "cooldwon": "0",
+        "description": "Golpea al enemigo ignorando sus aumentos de defensa, ademas realiza daño en area",
+        "multiplier": ["none"]
+    },
+    {
+        "id": 8,
+        "name": "Trampa para yordle",
+        "type": "Piltover",
+        "power": "none",
+        "cooldwon": "0",
+        "description": "Pone una trampa que se activa cuando el enemigo cambie de campeon, el siguiente campeon estara imbolizado durante 1 turno. Si es de Ciudad de Bandle ademas recibe daño igual a un 25% de su vida",
+        "multiplier": ["none"]
+    },
+    {
+        "id": 9,
+        "name": "Red de calibre 90",
+        "type": "Piltover",
+        "power": "none",
+        "cooldwon": "0",
+        "description": "Ralentiza al enemigo, si el ataque se realiza antes que el rival, ademas aumentara la evasion de ese ataque en un 60%",
+        "multiplier": ["evasion, 1.6", "slow, 1,2"]
+    },
+    {
+        "id": 10,
+        "name": "As en la manga",
+        "type": "Piltover",
+        "power": "200",
+        "cooldwon": "0",
+        "description": "Carga el ataque durante 1 turno, si recibe algun golpe se cancelara el ataque. este ataque ignora los aumenots de defensa ",
+        "multiplier": ["speed, 2", "dmg, 2"]
+    }
+]
